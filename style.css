@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Noto+Sans:ital,wght@1,300&display=swap');
+
+
+body {
+  background-color: #FAF3DD;
+}
+
+h1, h2, h3, p{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: xxx-large;
+  color: #F6F7EB;
+}
+
+h2{
+  font-size: xx-large;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Mukta', sans-serif;
+  font-size: x-large;
+  font-style: oblique;
+}
+
+p { font-family: 'Mukta', sans-serif;
+  font-size: x-large;
+  
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Mukta', sans-serif;
+  font-size: x-large;
+  color: #CFCFEA;
+}
+
+i{
+  width: 20px;
+  height: 50px;
+  color: #2A2C24;
+  margin: 30px;
+}
+
+
+.container {
+  box-shadow: 0 15px 35px rgba(50,50,93,.1);
+  max-width: 960px;
+  margin: 0 auto 5% auto;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #373c50;
+}
+ 
+.button {
+  display: block;
+  padding: 10px 20px;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  background-color: #575A4B;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+.button:hover{
+  background-color: #2A2C24;
+}  
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+
+.containers-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.horizontal-list{
+  margin-top: 50px ;
+  gap: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+
+
+
+@media (max-width: 1660px) {
+  
+  #main-container{
+    margin: 25% auto;
+  }
+}
+
+@media (max-width: 960px) {
+
+  #main-container{
+    margin: 23% auto;
+  }
+}
+@media (max-width: 720px) {
+ 
+  #main-container{
+    margin: 20% auto;
+  }
+}
+@media (max-width: 630px) {
+ 
+  #main-container{
+    margin: 15% auto;
+  }
+}
+
+@media (max-width: 550px) {
+
+  #main-container{
+    margin: 20% auto;
+  }
+}
+
+
+
+#center-text{
+  text-align: center;
+}
+
+#main-container{
+  margin: 15% auto 5% auto;
+}
+
+#sub-container{
+  background-color: #7587cd;
+}
+
+#invisible-container{
+  background-color: rgba(0,0,0,0);
+  box-shadow: none;
+}
+
+#top-avatar{
+  margin: -30% 25% 5%;
+  width: 50%;
+  height: 50%;
+}
+
+#black-text{
+  color: #2A2C24;
+}
